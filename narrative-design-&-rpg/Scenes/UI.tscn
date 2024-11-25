@@ -1,0 +1,90 @@
+[gd_scene load_steps=3 format=3 uid="uid://dyu67olmcdf81"]
+
+[ext_resource type="Texture2D" uid="uid://g7lxo4yt6h6v" path="res://Art/blue-cracks.png" id="1_y4jct"]
+[ext_resource type="Script" path="res://Scripts/UIClose.cs" id="2_lngpv"]
+
+[node name="UI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Forge_Menu" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="bgBackdrop" type="ColorRect" parent="Forge_Menu"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -442.0
+offset_top = -254.5
+offset_right = 442.0
+offset_bottom = 254.5
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.194349, 0.194349, 0.194349, 1)
+
+[node name="bgFore" type="ColorRect" parent="Forge_Menu"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -432.0
+offset_top = -243.0
+offset_right = 432.0
+offset_bottom = 243.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.288518, 0.288518, 0.288518, 1)
+
+[node name="bgText" type="TextureRect" parent="Forge_Menu"]
+self_modulate = Color(0.501407, 0.501406, 0.501406, 1)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -432.0
+offset_top = -243.0
+offset_right = 432.0
+offset_bottom = 243.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_y4jct")
+
+[node name="btnClose" type="Button" parent="Forge_Menu"]
+self_modulate = Color(1, 0, 0, 1)
+offset_left = 375.0
+offset_top = -216.0
+offset_right = 445.0
+offset_bottom = -185.0
+text = "Close"
+script = ExtResource("2_lngpv")
+
+[node name="VScrollBar" type="VScrollBar" parent="Forge_Menu"]
+layout_mode = 0
+offset_left = -406.0
+offset_top = -217.0
+offset_right = -384.0
+offset_bottom = 255.0
+
+[connection signal="button_up" from="Forge_Menu/btnClose" to="Forge_Menu/btnClose" method="_btnClose"]
