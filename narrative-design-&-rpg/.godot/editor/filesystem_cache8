@@ -1,0 +1,27 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1736511307
+::res://Art/::1736510118
+blue-cracks.png::CompressedTexture2D::487902891381649079::1736507622::1736507716::1::::<><>::
+idle & walk.png::CompressedTexture2D::8897571672736187224::1736507807::1736507994::1::::<><>::
+OVN SHEIT.png::CompressedTexture2D::7818820219069165050::1736507807::1736507994::1::::<><>::
+preview.png::CompressedTexture2D::4443695666687183546::1736507807::1736507994::1::::<><>::
+SHOP FRONTAGE.png::CompressedTexture2D::4598291853596410466::1736507807::1736507994::1::::<><>::
+walk & up walk.png::CompressedTexture2D::4774848239427566533::1736507807::1736507994::1::::<><>::
+::res://Art/Assets/::1736507994
+blue-cracks.png::CompressedTexture2D::487902891381649079::1736507807::1736507994::1::::<><>::
+OVN SHEIT.png::CompressedTexture2D::7710674094442078945::1736507807::1736507994::1::::<><>::
+SHOP FRONTAGE.png::CompressedTexture2D::2272836513645694111::1736507807::1736507994::1::::<><>::
+::res://Art/Cover/::1736507716
+icon.svg::CompressedTexture2D::356196500738620443::1736507622::1736507716::1::::<><>::
+::res://Art/Tilemap/::1736510118
+cave textures.jpg::CompressedTexture2D::3095857768022664758::1736507807::1736507995::1::::<><>::
+cave textures.png::CompressedTexture2D::9218375590958638090::1736507807::1736507996::1::::<><>::
+ore tileset.webp::CompressedTexture2D::1847904519349645732::1736507807::1736507995::1::::<><>::
+::res://Scenes/::1736507638
+Player.tscn::PackedScene::6332870427891070588::1736507622::0::1::::<><>::
+UI.tscn::PackedScene::8887021978521766152::1736507622::0::1::::<><>::uid://g7lxo4yt6h6v::::res://Art/blue-cracks.png<>res://Scripts/UIClose.cs
+world.tscn::PackedScene::5559142010908735211::1736507622::0::1::::<><>::uid://dyu67olmcdf81::::res://Scenes/UI.tscn
+::res://Scripts/::1736507638
+Movement.cs::CSharpScript::-1::1736507622::0::1::::<><>::
+ore sell price case.cs::CSharpScript::-1::1736507622::0::1::::<><>::
+UIClose.cs::CSharpScript::-1::1736507622::0::1::::<><>::
