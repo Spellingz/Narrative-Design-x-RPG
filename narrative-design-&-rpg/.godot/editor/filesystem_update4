@@ -1,2 +1,4 @@
 res://Scenes/world.tscn
 res://Art/Tilesets/Cave.tres
+res://Scripts/Movement.cs
+res://Scripts/UIClose.cs

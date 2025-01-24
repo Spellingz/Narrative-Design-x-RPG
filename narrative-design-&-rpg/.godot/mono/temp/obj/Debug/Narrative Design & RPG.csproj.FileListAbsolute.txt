@@ -1,0 +1,17 @@
+/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/.godot/mono/temp/bin/Debug/Narrative Design & RPG.deps.json
+/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/.godot/mono/temp/bin/Debug/Narrative Design & RPG.runtimeconfig.json
+/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/.godot/mono/temp/bin/Debug/Narrative Design & RPG.dll
+/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/.godot/mono/temp/bin/Debug/Narrative Design & RPG.pdb
+/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/.godot/mono/temp/bin/Debug/GodotSharp.dll
+/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/.godot/mono/temp/bin/Debug/GodotSharpEditor.dll
+/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/.godot/mono/temp/obj/Debug/Narrative Design & RPG.csproj.AssemblyReference.cache
+/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/.godot/mono/temp/obj/Debug/Narrative Design & RPG.GeneratedMSBuildEditorConfig.editorconfig
+/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/.godot/mono/temp/obj/Debug/Narrative Design & RPG.AssemblyInfoInputs.cache
+/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/.godot/mono/temp/obj/Debug/Narrative Design & RPG.AssemblyInfo.cs
+/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/.godot/mono/temp/obj/Debug/Narrative Design & RPG.csproj.CoreCompileInputs.cache
+/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/.godot/mono/temp/obj/Debug/Narrative Design & RPG.csproj.CopyComplete
+/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/.godot/mono/temp/obj/Debug/Narrative Design & RPG.dll
+/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/.godot/mono/temp/obj/Debug/refint/Narrative Design & RPG.dll
+/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/.godot/mono/temp/obj/Debug/Narrative Design & RPG.pdb
+/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/.godot/mono/temp/obj/Debug/Narrative Design & RPG.genruntimeconfig.cache
+/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/.godot/mono/temp/obj/Debug/ref/Narrative Design & RPG.dll

@@ -1,0 +1,2 @@
+﻿63152
+/Users/valdemarnissen/Desktop/Godot.app/Contents/MacOS/Godot

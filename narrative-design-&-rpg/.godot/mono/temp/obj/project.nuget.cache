@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "7Djsm8R5h9eBC52z21FqalUL2jWosKPbT6l55AnYjNDOMAZckZD4daE9rrY/aez3+tQnEOgx/iZO+kUeKJCmog==",
+  "success": true,
+  "projectFilePath": "/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/Narrative Design & RPG.csproj",
+  "expectedPackageFiles": [
+    "/Users/valdemarnissen/.nuget/packages/godot.sourcegenerators/4.3.0/godot.sourcegenerators.4.3.0.nupkg.sha512",
+    "/Users/valdemarnissen/.nuget/packages/godotsharp/4.3.0/godotsharp.4.3.0.nupkg.sha512",
+    "/Users/valdemarnissen/.nuget/packages/godotsharpeditor/4.3.0/godotsharpeditor.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
