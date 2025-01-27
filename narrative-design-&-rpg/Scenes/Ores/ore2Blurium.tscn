@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://cnmjdm6ahsmiw"]
+
+[ext_resource type="Texture2D" uid="uid://df70n5h2skixy" path="res://Art/Assets/Blurium.png" id="1_6uxic"]
+[ext_resource type="PackedScene" uid="uid://durxi480u6554" path="res://Scenes/interact.tscn" id="2_rrvdy"]
+
+[node name="ore2Blurium" type="TextureRect"]
+offset_left = -1311.0
+offset_top = 823.0
+offset_right = -1011.0
+offset_bottom = 1123.0
+texture = ExtResource("1_6uxic")
+
+[node name="Interact" parent="." instance=ExtResource("2_rrvdy")]
+visible = false
+layout_mode = 0
+offset_left = 131.0
+offset_top = 129.0
+offset_right = 820.0
+offset_bottom = 834.0

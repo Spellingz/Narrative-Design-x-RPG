@@ -1,7 +1,32 @@
-[gd_scene load_steps=3 format=3 uid="uid://dyu67olmcdf81"]
+[gd_scene load_steps=22 format=3 uid="uid://dyu67olmcdf81"]
 
+[ext_resource type="Script" path="res://Scripts/Inventory/Inventory.cs" id="1_waw6v"]
 [ext_resource type="Texture2D" uid="uid://g7lxo4yt6h6v" path="res://Art/blue-cracks.png" id="1_y4jct"]
-[ext_resource type="Script" path="res://Scripts/UIClose.cs" id="2_lngpv"]
+[ext_resource type="Script" path="res://Scripts/Inventory/Equip.cs" id="2_5nqso"]
+[ext_resource type="Script" path="res://Scripts/Menu/UIClose.cs" id="2_lngpv"]
+[ext_resource type="Script" path="res://Scripts/Inventory/Equip2.cs" id="3_ehuxo"]
+[ext_resource type="Script" path="res://Scripts/Menu/BtnOre1.cs" id="4_6lmb5"]
+[ext_resource type="Script" path="res://Scripts/Inventory/Equip3.cs" id="4_gp8vl"]
+[ext_resource type="Script" path="res://Scripts/Menu/btnMenuSell1.cs" id="4_lxhp7"]
+[ext_resource type="Script" path="res://Scripts/Inventory/Equip4.cs" id="5_i16p7"]
+[ext_resource type="Script" path="res://Scripts/Menu/BtnOre2.cs" id="5_win60"]
+[ext_resource type="Script" path="res://Scripts/Menu/BtnOre3.cs" id="6_o4shm"]
+[ext_resource type="Script" path="res://Scripts/Inventory/Equip5.cs" id="6_wrins"]
+[ext_resource type="Script" path="res://Scripts/Menu/BtnOre4.cs" id="7_e6xqk"]
+[ext_resource type="Script" path="res://Scripts/Inventory/Equip6.cs" id="7_ppsk1"]
+[ext_resource type="Script" path="res://Scripts/Menu/BtnOre5.cs" id="8_rv6ly"]
+[ext_resource type="Script" path="res://Scripts/Menu/BtnOre6.cs" id="9_p60ye"]
+[ext_resource type="Script" path="res://Scripts/Menu/BtnOre7.cs" id="10_vt6wy"]
+[ext_resource type="Script" path="res://Scripts/Menu/Buy.cs" id="11_wfm7s"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ihvf7"]
+font_size = 20
+
+[sub_resource type="LabelSettings" id="LabelSettings_vapk4"]
+font_size = 20
+
+[sub_resource type="LabelSettings" id="LabelSettings_dkm4t"]
+font_size = 26
 
 [node name="UI" type="Control"]
 layout_mode = 3
@@ -11,21 +36,263 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Forge_Menu" type="Control" parent="."]
+[node name="Inventory" type="Control" parent="."]
+visible = false
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -20.0
-offset_top = -20.0
-offset_right = 20.0
-offset_bottom = 20.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="bgBackdrop" type="ColorRect" parent="Forge_Menu"]
+[node name="Background" type="Control" parent="Inventory"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Interface" type="ColorRect" parent="Inventory/Background"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -116.5
+offset_top = -230.5
+offset_right = 116.5
+offset_bottom = 230.5
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.231373)
+
+[node name="btnClose" type="Button" parent="Inventory"]
+self_modulate = Color(1, 0, 0, 1)
+layout_mode = 0
+offset_left = 43.0
+offset_top = -223.0
+offset_right = 113.0
+offset_bottom = -192.0
+text = "Close"
+script = ExtResource("2_lngpv")
+
+[node name="Slot0" type="ColorRect" parent="Inventory"]
+layout_mode = 0
+offset_left = -98.0
+offset_top = -183.0
+offset_right = 100.0
+offset_bottom = -122.0
+color = Color(0, 0, 0, 0.14902)
+
+[node name="Name" type="Label" parent="Inventory/Slot0"]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 6.0
+offset_right = 124.0
+offset_bottom = 29.0
+text = "Starter Pickaxe"
+
+[node name="Level" type="Label" parent="Inventory/Slot0"]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 31.0
+offset_right = 63.0
+offset_bottom = 54.0
+text = "Level: 1"
+
+[node name="Equip" type="Button" parent="Inventory/Slot0"]
+layout_mode = 0
+offset_left = 133.0
+offset_top = 27.0
+offset_right = 188.0
+offset_bottom = 58.0
+text = "Equip"
+script = ExtResource("2_5nqso")
+
+[node name="Slot1" type="ColorRect" parent="Inventory"]
+layout_mode = 0
+offset_left = -98.0
+offset_top = -114.0
+offset_right = 100.0
+offset_bottom = -53.0
+color = Color(0, 0, 0, 0.14902)
+
+[node name="Name" type="Label" parent="Inventory/Slot1"]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 6.0
+offset_right = 124.0
+offset_bottom = 29.0
+text = "Blurium Pickaxe"
+
+[node name="Level" type="Label" parent="Inventory/Slot1"]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 31.0
+offset_right = 63.0
+offset_bottom = 54.0
+text = "Level: 2"
+
+[node name="Equip" type="Button" parent="Inventory/Slot1"]
+layout_mode = 0
+offset_left = 133.0
+offset_top = 27.0
+offset_right = 188.0
+offset_bottom = 58.0
+text = "Equip"
+script = ExtResource("3_ehuxo")
+
+[node name="Slot2" type="ColorRect" parent="Inventory"]
+layout_mode = 0
+offset_left = -98.0
+offset_top = -46.0
+offset_right = 100.0
+offset_bottom = 15.0
+color = Color(0, 0, 0, 0.14902)
+
+[node name="Name" type="Label" parent="Inventory/Slot2"]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 6.0
+offset_right = 124.0
+offset_bottom = 29.0
+text = "Topazium Pickaxe"
+
+[node name="Level" type="Label" parent="Inventory/Slot2"]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 31.0
+offset_right = 63.0
+offset_bottom = 54.0
+text = "Level: 3"
+
+[node name="Equip" type="Button" parent="Inventory/Slot2"]
+layout_mode = 0
+offset_left = 133.0
+offset_top = 27.0
+offset_right = 188.0
+offset_bottom = 58.0
+text = "Equip"
+script = ExtResource("4_gp8vl")
+
+[node name="Slot3" type="ColorRect" parent="Inventory"]
+layout_mode = 0
+offset_left = -98.0
+offset_top = 22.0
+offset_right = 100.0
+offset_bottom = 83.0
+color = Color(0, 0, 0, 0.14902)
+
+[node name="Name" type="Label" parent="Inventory/Slot3"]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 6.0
+offset_right = 124.0
+offset_bottom = 29.0
+text = "Azurium Pickaxe"
+
+[node name="Level" type="Label" parent="Inventory/Slot3"]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 31.0
+offset_right = 63.0
+offset_bottom = 54.0
+text = "Level: 4"
+
+[node name="Equip" type="Button" parent="Inventory/Slot3"]
+layout_mode = 0
+offset_left = 133.0
+offset_top = 27.0
+offset_right = 188.0
+offset_bottom = 58.0
+text = "Equip"
+script = ExtResource("5_i16p7")
+
+[node name="Slot4" type="ColorRect" parent="Inventory"]
+layout_mode = 0
+offset_left = -98.0
+offset_top = 89.0
+offset_right = 100.0
+offset_bottom = 150.0
+color = Color(0, 0, 0, 0.14902)
+
+[node name="Name" type="Label" parent="Inventory/Slot4"]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 6.0
+offset_right = 124.0
+offset_bottom = 29.0
+text = "Crimsonium Pickaxe"
+
+[node name="Level" type="Label" parent="Inventory/Slot4"]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 31.0
+offset_right = 63.0
+offset_bottom = 54.0
+text = "Level: 5"
+
+[node name="Equip" type="Button" parent="Inventory/Slot4"]
+layout_mode = 0
+offset_left = 133.0
+offset_top = 27.0
+offset_right = 188.0
+offset_bottom = 58.0
+text = "Equip"
+script = ExtResource("6_wrins")
+
+[node name="Slot5" type="ColorRect" parent="Inventory"]
+layout_mode = 0
+offset_left = -98.0
+offset_top = 156.0
+offset_right = 100.0
+offset_bottom = 217.0
+color = Color(0, 0, 0, 0.14902)
+
+[node name="Name" type="Label" parent="Inventory/Slot5"]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 6.0
+offset_right = 124.0
+offset_bottom = 29.0
+text = "GALAXY Pickaxe"
+
+[node name="Level" type="Label" parent="Inventory/Slot5"]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 31.0
+offset_right = 63.0
+offset_bottom = 54.0
+text = "Level: 6"
+
+[node name="Equip" type="Button" parent="Inventory/Slot5"]
+layout_mode = 0
+offset_left = 133.0
+offset_top = 27.0
+offset_right = 188.0
+offset_bottom = 58.0
+text = "Equip"
+script = ExtResource("7_ppsk1")
+
+[node name="Sell_Menu" type="Control" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.9, 0.9)
+
+[node name="bgBackdrop" type="ColorRect" parent="Sell_Menu"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -40,7 +307,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.194349, 0.194349, 0.194349, 1)
 
-[node name="bgFore" type="ColorRect" parent="Forge_Menu"]
+[node name="bgFore" type="ColorRect" parent="Sell_Menu"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -53,9 +320,9 @@ offset_right = 432.0
 offset_bottom = 243.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0.288518, 0.288518, 0.288518, 1)
+color = Color(0.344643, 0.272859, 0.213658, 1)
 
-[node name="bgText" type="TextureRect" parent="Forge_Menu"]
+[node name="bgText" type="TextureRect" parent="Sell_Menu"]
 self_modulate = Color(0.501407, 0.501406, 0.501406, 1)
 layout_mode = 1
 anchors_preset = 8
@@ -71,20 +338,666 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("1_y4jct")
 
-[node name="btnClose" type="Button" parent="Forge_Menu"]
+[node name="btnClose" type="Button" parent="Sell_Menu"]
 self_modulate = Color(1, 0, 0, 1)
-offset_left = 375.0
-offset_top = -216.0
-offset_right = 445.0
-offset_bottom = -185.0
+layout_mode = 0
+offset_left = 351.889
+offset_top = -232.889
+offset_right = 421.889
+offset_bottom = -201.889
 text = "Close"
 script = ExtResource("2_lngpv")
 
-[node name="VScrollBar" type="VScrollBar" parent="Forge_Menu"]
+[node name="ColorRect2" type="ColorRect" parent="Sell_Menu"]
 layout_mode = 0
-offset_left = -406.0
-offset_top = -217.0
-offset_right = -384.0
-offset_bottom = 255.0
+offset_left = -362.0
+offset_top = -158.0
+offset_right = 388.0
+offset_bottom = -114.0
+color = Color(0.180392, 0.180392, 0.180392, 0.741176)
 
-[connection signal="button_up" from="Forge_Menu/btnClose" to="Forge_Menu/btnClose" method="_btnClose"]
+[node name="Button2" type="Button" parent="Sell_Menu/ColorRect2"]
+layout_mode = 0
+offset_left = 635.0
+offset_top = 4.0
+offset_right = 725.0
+offset_bottom = 40.0
+text = "Sell"
+script = ExtResource("4_lxhp7")
+
+[node name="lblPrice2" type="Label" parent="Sell_Menu/ColorRect2"]
+layout_mode = 0
+offset_left = 501.0
+offset_top = 11.0
+offset_right = 575.0
+offset_bottom = 34.0
+text = "100 Coins"
+
+[node name="lblMat2" type="Label" parent="Sell_Menu/ColorRect2"]
+layout_mode = 0
+offset_left = 179.0
+offset_top = 10.0
+offset_right = 251.0
+offset_bottom = 33.0
+text = "Resource"
+
+[node name="SpinBox2" type="SpinBox" parent="Sell_Menu/ColorRect2"]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 6.0
+offset_right = 147.063
+offset_bottom = 37.0
+
+[node name="btnOre1" type="Button" parent="Sell_Menu"]
+layout_mode = 0
+offset_left = -405.667
+offset_top = 24.0
+offset_right = -303.667
+offset_bottom = 55.0
+text = "Missium"
+script = ExtResource("4_6lmb5")
+
+[node name="btnOre2" type="Button" parent="Sell_Menu"]
+layout_mode = 0
+offset_left = -287.667
+offset_top = 24.0
+offset_right = -185.667
+offset_bottom = 55.0
+text = "Blurium"
+script = ExtResource("5_win60")
+
+[node name="btnOre3" type="Button" parent="Sell_Menu"]
+layout_mode = 0
+offset_left = -172.667
+offset_top = 24.0
+offset_right = -70.6667
+offset_bottom = 55.0
+text = "Topazium"
+script = ExtResource("6_o4shm")
+
+[node name="btnOre4" type="Button" parent="Sell_Menu"]
+layout_mode = 0
+offset_left = -53.6667
+offset_top = 24.0
+offset_right = 48.3333
+offset_bottom = 55.0
+text = "Azurium"
+script = ExtResource("7_e6xqk")
+
+[node name="btnOre5" type="Button" parent="Sell_Menu"]
+layout_mode = 0
+offset_left = 64.3333
+offset_top = 24.0
+offset_right = 167.333
+offset_bottom = 55.0
+text = "Crimsonium"
+script = ExtResource("8_rv6ly")
+
+[node name="btnOre6" type="Button" parent="Sell_Menu"]
+layout_mode = 0
+offset_left = 180.333
+offset_top = 24.0
+offset_right = 282.333
+offset_bottom = 55.0
+text = "Jadeium"
+script = ExtResource("9_p60ye")
+
+[node name="btnOre7" type="Button" parent="Sell_Menu"]
+layout_mode = 0
+offset_left = 296.333
+offset_top = 24.0
+offset_right = 398.333
+offset_bottom = 55.0
+text = "GoDotium"
+script = ExtResource("10_vt6wy")
+
+[node name="Forge_Menu" type="Control" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.9, 0.9)
+metadata/_edit_use_anchors_ = true
+
+[node name="Background" type="Control" parent="Forge_Menu"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="bgBackdrop" type="ColorRect" parent="Forge_Menu/Background"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -442.0
+offset_top = -254.5
+offset_right = 442.0
+offset_bottom = 254.5
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.194349, 0.194349, 0.194349, 1)
+
+[node name="bgFore" type="ColorRect" parent="Forge_Menu/Background"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -432.0
+offset_top = -243.0
+offset_right = 432.0
+offset_bottom = 243.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.344643, 0.272859, 0.213658, 1)
+
+[node name="bgText" type="TextureRect" parent="Forge_Menu/Background"]
+self_modulate = Color(0.501407, 0.501406, 0.501406, 1)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -432.0
+offset_top = -243.0
+offset_right = 432.0
+offset_bottom = 243.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_y4jct")
+
+[node name="Slot1" type="ColorRect" parent="Forge_Menu"]
+layout_mode = 0
+offset_left = -413.0
+offset_top = -216.0
+offset_right = -152.0
+offset_bottom = -18.0
+color = Color(0.180392, 0.180392, 0.180392, 0.741176)
+
+[node name="Labels" type="Control" parent="Forge_Menu/Slot1"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PickName" type="Label" parent="Forge_Menu/Slot1/Labels"]
+layout_mode = 0
+offset_left = 72.7778
+offset_top = 9.2222
+offset_right = 197.778
+offset_bottom = 32.2222
+text = "Blurium Pickaxe"
+
+[node name="Cost" type="Label" parent="Forge_Menu/Slot1/Labels"]
+layout_mode = 0
+offset_left = 11.6667
+offset_top = 37.0
+offset_right = 99.6667
+offset_bottom = 138.0
+text = "Cost:
+500 Coins
+15 Missium
+10 Blurium"
+
+[node name="Level" type="Label" parent="Forge_Menu/Slot1/Labels"]
+layout_mode = 0
+offset_left = 199.444
+offset_top = 38.1111
+offset_right = 244.444
+offset_bottom = 87.1111
+text = "Level:
+2"
+
+[node name="Unlocks" type="Label" parent="Forge_Menu/Slot1/Labels"]
+layout_mode = 0
+offset_left = 178.0
+offset_top = 99.0
+offset_right = 254.0
+offset_bottom = 150.0
+text = "Unlocks:
+Topazium"
+
+[node name="Buy" type="Button" parent="Forge_Menu/Slot1"]
+layout_mode = 0
+offset_left = 103.889
+offset_top = 160.0
+offset_right = 163.889
+offset_bottom = 191.0
+text = "Buy"
+script = ExtResource("11_wfm7s")
+
+[node name="Slot2" type="ColorRect" parent="Forge_Menu"]
+layout_mode = 0
+offset_left = -134.667
+offset_top = -216.0
+offset_right = 132.333
+offset_bottom = -18.0
+color = Color(0.180392, 0.180392, 0.180392, 0.741176)
+
+[node name="Labels" type="Control" parent="Forge_Menu/Slot2"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PickName" type="Label" parent="Forge_Menu/Slot2/Labels"]
+layout_mode = 0
+offset_left = 68.3331
+offset_top = 9.2222
+offset_right = 207.333
+offset_bottom = 32.2222
+text = "Topazium Pickaxe"
+
+[node name="Cost" type="Label" parent="Forge_Menu/Slot2/Labels"]
+layout_mode = 0
+offset_left = 7.22202
+offset_top = 37.0
+offset_right = 106.222
+offset_bottom = 138.0
+text = "Cost:
+1.000 Coins
+15 Blurium
+10 Topazium"
+
+[node name="Level" type="Label" parent="Forge_Menu/Slot2/Labels"]
+layout_mode = 0
+offset_left = 201.666
+offset_top = 35.8889
+offset_right = 246.666
+offset_bottom = 84.8889
+text = "Level:
+3"
+
+[node name="Unlocks" type="Label" parent="Forge_Menu/Slot2/Labels"]
+layout_mode = 0
+offset_left = 168.0
+offset_top = 99.0
+offset_right = 244.0
+offset_bottom = 155.0
+text = "Unlocks:
+Azurium"
+
+[node name="Buy" type="Button" parent="Forge_Menu/Slot2"]
+layout_mode = 0
+offset_left = 99.4442
+offset_top = 160.0
+offset_right = 159.444
+offset_bottom = 191.0
+text = "Buy"
+script = ExtResource("11_wfm7s")
+
+[node name="Slot3" type="ColorRect" parent="Forge_Menu"]
+layout_mode = 0
+offset_left = -413.0
+offset_top = 4.0
+offset_right = -152.0
+offset_bottom = 214.0
+color = Color(0.180392, 0.180392, 0.180392, 0.741176)
+
+[node name="Labels" type="Control" parent="Forge_Menu/Slot3"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PickName" type="Label" parent="Forge_Menu/Slot3/Labels"]
+layout_mode = 0
+offset_left = 75.0
+offset_top = 9.2222
+offset_right = 204.0
+offset_bottom = 32.2222
+text = "Azurium Pickaxe"
+
+[node name="Cost" type="Label" parent="Forge_Menu/Slot3/Labels"]
+layout_mode = 0
+offset_left = 13.8889
+offset_top = 37.0
+offset_right = 112.889
+offset_bottom = 138.0
+text = "Cost:
+1.500 Coins
+15 Topazium
+10 Azurium"
+
+[node name="Level" type="Label" parent="Forge_Menu/Slot3/Labels"]
+layout_mode = 0
+offset_left = 185.0
+offset_top = 41.5556
+offset_right = 230.0
+offset_bottom = 90.5556
+text = "Level:
+4"
+
+[node name="Unlocks" type="Label" parent="Forge_Menu/Slot3/Labels"]
+layout_mode = 0
+offset_left = 150.778
+offset_top = 96.0
+offset_right = 245.778
+offset_bottom = 171.0
+text = "Unlocks:
+Crimsonium"
+
+[node name="Buy" type="Button" parent="Forge_Menu/Slot3"]
+layout_mode = 0
+offset_left = 106.111
+offset_top = 172.222
+offset_right = 166.111
+offset_bottom = 203.222
+text = "Buy"
+script = ExtResource("11_wfm7s")
+
+[node name="Slot4" type="ColorRect" parent="Forge_Menu"]
+layout_mode = 0
+offset_left = -134.667
+offset_top = 4.0
+offset_right = 131.333
+offset_bottom = 214.0
+color = Color(0.180392, 0.180392, 0.180392, 0.741176)
+
+[node name="Labels" type="Control" parent="Forge_Menu/Slot4"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PickName" type="Label" parent="Forge_Menu/Slot4/Labels"]
+layout_mode = 0
+offset_left = 49.4444
+offset_top = 11.5555
+offset_right = 207.444
+offset_bottom = 34.5555
+text = "Crimsonium Pickaxe"
+
+[node name="Cost" type="Label" parent="Forge_Menu/Slot4/Labels"]
+layout_mode = 0
+offset_left = 6.11108
+offset_top = 37.0
+offset_right = 105.111
+offset_bottom = 138.0
+text = "Cost:
+2.500 Coins
+15 Azurium
+10 Crimsonium"
+
+[node name="Level" type="Label" parent="Forge_Menu/Slot4/Labels"]
+layout_mode = 0
+offset_left = 175.0
+offset_top = 38.2222
+offset_right = 220.0
+offset_bottom = 87.2222
+text = "Level:
+5"
+
+[node name="Unlocks" type="Label" parent="Forge_Menu/Slot4/Labels"]
+layout_mode = 0
+offset_left = 166.111
+offset_top = 93.7778
+offset_right = 261.111
+offset_bottom = 168.778
+text = "Unlocks:
+Jadeium"
+
+[node name="Buy" type="Button" parent="Forge_Menu/Slot4"]
+layout_mode = 0
+offset_left = 98.3333
+offset_top = 172.222
+offset_right = 158.333
+offset_bottom = 203.222
+text = "Buy"
+script = ExtResource("11_wfm7s")
+
+[node name="Slot5" type="ColorRect" parent="Forge_Menu"]
+layout_mode = 0
+offset_left = 148.0
+offset_top = -193.0
+offset_right = 419.0
+offset_bottom = 199.0
+color = Color(0.180392, 0.180392, 0.180392, 0.741176)
+
+[node name="Labels" type="Control" parent="Forge_Menu/Slot5"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PickName" type="Label" parent="Forge_Menu/Slot5/Labels"]
+layout_mode = 0
+offset_left = 65.3333
+offset_top = 11.5555
+offset_right = 223.333
+offset_bottom = 34.5555
+text = "GALAXY Pickaxe"
+
+[node name="Cost" type="Label" parent="Forge_Menu/Slot5/Labels"]
+layout_mode = 0
+offset_left = 6.11111
+offset_top = 37.0
+offset_right = 105.111
+offset_bottom = 138.0
+text = "Cost:
+10.000 Coins
+15 Missium 
+15 Blurium
+15 Topazium
+15 Azurium
+15 Crimsonium
+15 Jadeium"
+
+[node name="Level" type="Label" parent="Forge_Menu/Slot5/Labels"]
+layout_mode = 0
+offset_left = 177.556
+offset_top = 57.7778
+offset_right = 222.556
+offset_bottom = 106.778
+text = "Level:
+6"
+
+[node name="Unlocks" type="Label" parent="Forge_Menu/Slot5/Labels"]
+layout_mode = 0
+offset_left = 162.0
+offset_top = 244.111
+offset_right = 257.0
+offset_bottom = 319.111
+text = "Unlocks:
+GoDot ium"
+
+[node name="Buy" type="Button" parent="Forge_Menu/Slot5"]
+layout_mode = 0
+offset_left = 98.6666
+offset_top = 341.111
+offset_right = 158.667
+offset_bottom = 372.111
+text = "Buy"
+script = ExtResource("11_wfm7s")
+
+[node name="btnClose" type="Button" parent="Forge_Menu"]
+self_modulate = Color(1, 0, 0, 1)
+layout_mode = 0
+offset_left = 351.889
+offset_top = -232.889
+offset_right = 421.889
+offset_bottom = -201.889
+text = "Close"
+script = ExtResource("2_lngpv")
+
+[node name="Mining" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="UI" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="UI"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.122
+anchor_bottom = 1.0
+offset_left = -576.0
+offset_top = -229.0
+offset_right = -430.0
+offset_bottom = 232.0
+grow_vertical = 2
+color = Color(0, 0, 0, 0.231373)
+
+[node name="lblCoins" type="Label" parent="UI"]
+layout_mode = 0
+offset_left = -559.0
+offset_top = -206.0
+offset_right = -473.0
+offset_bottom = -178.0
+text = "Coins: x
+"
+label_settings = SubResource("LabelSettings_ihvf7")
+
+[node name="lblPick" type="Label" parent="UI"]
+layout_mode = 0
+offset_left = -568.0
+offset_top = 97.0
+offset_right = -460.0
+offset_bottom = 125.0
+text = "Pick Level:"
+label_settings = SubResource("LabelSettings_vapk4")
+
+[node name="lblZone" type="Label" parent="UI"]
+visible = false
+layout_mode = 0
+offset_left = -568.0
+offset_top = 125.0
+offset_right = -457.0
+offset_bottom = 161.0
+text = "Zone:"
+label_settings = SubResource("LabelSettings_dkm4t")
+
+[node name="Mats" type="Control" parent="UI"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="lblMat1" type="Label" parent="UI/Mats"]
+layout_mode = 0
+offset_left = -552.0
+offset_top = -153.0
+offset_right = -483.0
+offset_bottom = -130.0
+text = "Mat1: x"
+
+[node name="lblMat2" type="Label" parent="UI/Mats"]
+layout_mode = 0
+offset_left = -552.0
+offset_top = -121.0
+offset_right = -483.0
+offset_bottom = -98.0
+text = "Mat2: x"
+
+[node name="lblMat3" type="Label" parent="UI/Mats"]
+layout_mode = 0
+offset_left = -552.0
+offset_top = -89.0
+offset_right = -483.0
+offset_bottom = -66.0
+text = "Mat3: x"
+
+[node name="lblMat4" type="Label" parent="UI/Mats"]
+layout_mode = 0
+offset_left = -552.0
+offset_top = -57.0
+offset_right = -483.0
+offset_bottom = -34.0
+text = "Mat4: x"
+
+[node name="lblMat5" type="Label" parent="UI/Mats"]
+layout_mode = 0
+offset_left = -552.0
+offset_top = -25.0
+offset_right = -483.0
+offset_bottom = -2.0
+text = "Mat5: x"
+
+[node name="lblMat6" type="Label" parent="UI/Mats"]
+layout_mode = 0
+offset_left = -552.0
+offset_top = 7.0
+offset_right = -483.0
+offset_bottom = 30.0
+text = "Mat6: x"
+
+[node name="lblMat7" type="Label" parent="UI/Mats"]
+layout_mode = 0
+offset_left = -552.0
+offset_top = 39.0
+offset_right = -483.0
+offset_bottom = 62.0
+text = "Mat7: x"
+
+[node name="Button" type="Button" parent="UI"]
+layout_mode = 0
+offset_left = -554.0
+offset_top = 193.0
+offset_right = -455.0
+offset_bottom = 224.0
+text = "Inventory"
+script = ExtResource("1_waw6v")
+
+[node name="Mining" type="Label" parent="UI"]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -61.0
+offset_top = -89.0
+offset_right = 1.0
+offset_bottom = -66.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2, 2)
+text = "Mining.."
+
+[connection signal="pressed" from="Inventory/btnClose" to="Inventory/btnClose" method="_btnClose"]
+[connection signal="pressed" from="Inventory/Slot0/Equip" to="Inventory/Slot0/Equip" method="_OnEquip"]
+[connection signal="pressed" from="Inventory/Slot1/Equip" to="Inventory/Slot1/Equip" method="_OnEquip"]
+[connection signal="pressed" from="Inventory/Slot2/Equip" to="Inventory/Slot2/Equip" method="_OnEquip"]
+[connection signal="pressed" from="Inventory/Slot3/Equip" to="Inventory/Slot3/Equip" method="_OnEquip"]
+[connection signal="pressed" from="Inventory/Slot4/Equip" to="Inventory/Slot4/Equip" method="_OnEquip"]
+[connection signal="pressed" from="Inventory/Slot5/Equip" to="Inventory/Slot5/Equip" method="_OnEquip"]
+[connection signal="pressed" from="Sell_Menu/btnClose" to="Sell_Menu/btnClose" method="_btnClose"]
+[connection signal="button_up" from="Sell_Menu/ColorRect2/Button2" to="Sell_Menu/ColorRect2/Button2" method="_btnSell"]
+[connection signal="button_down" from="Sell_Menu/btnOre1" to="Sell_Menu/btnOre1" method="_SwitchMat1"]
+[connection signal="button_down" from="Sell_Menu/btnOre2" to="Sell_Menu/btnOre2" method="_SwitchMat2"]
+[connection signal="button_down" from="Sell_Menu/btnOre3" to="Sell_Menu/btnOre3" method="_SwitchMat3"]
+[connection signal="button_down" from="Sell_Menu/btnOre4" to="Sell_Menu/btnOre4" method="_SwitchMat4"]
+[connection signal="button_down" from="Sell_Menu/btnOre5" to="Sell_Menu/btnOre5" method="_SwitchMat5"]
+[connection signal="button_down" from="Sell_Menu/btnOre6" to="Sell_Menu/btnOre6" method="_SwitchMat6"]
+[connection signal="button_down" from="Sell_Menu/btnOre7" to="Sell_Menu/btnOre7" method="_SwitchMat7"]
+[connection signal="pressed" from="Forge_Menu/Slot1/Buy" to="Sell_Menu/btnClose" method="_OnPress"]
+[connection signal="pressed" from="Forge_Menu/Slot1/Buy" to="Forge_Menu/Slot1/Buy" method="_OnPressed"]
+[connection signal="pressed" from="Forge_Menu/Slot2/Buy" to="Forge_Menu/Slot2/Buy" method="_OnPressed"]
+[connection signal="pressed" from="Forge_Menu/Slot3/Buy" to="Forge_Menu/Slot3/Buy" method="_OnPressed"]
+[connection signal="pressed" from="Forge_Menu/Slot4/Buy" to="Forge_Menu/Slot4/Buy" method="_OnPressed"]
+[connection signal="pressed" from="Forge_Menu/Slot5/Buy" to="Forge_Menu/Slot5/Buy" method="_OnPressed"]
+[connection signal="pressed" from="Forge_Menu/btnClose" to="Forge_Menu/btnClose" method="_btnClose"]
+[connection signal="pressed" from="UI/Button" to="UI/Button" method="_OnInvPressed"]

@@ -1,29 +1,84 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737712152
-::res://Art/::1737711683
-blue-cracks.png::CompressedTexture2D::487902891381649079::1736507622::1736507716::1::::<><>::
-idle & walk.png::CompressedTexture2D::8897571672736187224::1736507807::1736507994::1::::<><>::
-OVN SHEIT.png::CompressedTexture2D::7818820219069165050::1736507807::1736507994::1::::<><>::
-preview.png::CompressedTexture2D::4443695666687183546::1736507807::1736507994::1::::<><>::
-SHOP FRONTAGE.png::CompressedTexture2D::4598291853596410466::1736507807::1736507994::1::::<><>::
-walk & up walk.png::CompressedTexture2D::4774848239427566533::1737366139::1737712153::1::::<><>::
-::res://Art/Assets/::1736507994
-blue-cracks.png::CompressedTexture2D::487902891381649079::1736507807::1736507994::1::::<><>::
-OVN SHEIT.png::CompressedTexture2D::7710674094442078945::1736507807::1736507994::1::::<><>::
-SHOP FRONTAGE.png::CompressedTexture2D::2272836513645694111::1736507807::1736507994::1::::<><>::
-::res://Art/Cover/::1736507716
-icon.svg::CompressedTexture2D::356196500738620443::1736507622::1736507716::1::::<><>::
-::res://Art/Tilemap/::1736511344
-cave textures.jpg::CompressedTexture2D::3095857768022664758::1736507807::1736507995::1::::<><>::
-cave textures.png::CompressedTexture2D::9218375590958638090::1736507807::1736507996::1::::<><>::
-ore tileset.webp::CompressedTexture2D::1847904519349645732::1736507807::1736507995::1::::<><>::
-::res://Art/Tilesets/::1736766667
-Cave.tres::TileSet::8275432432642878656::1736766667::0::1::::<><>::uid://d4lpkf3imke0y::::res://Art/Tilemap/cave textures.png
-::res://Scenes/::1737103339
-Player.tscn::PackedScene::6332870427891070588::1736507622::0::1::::<><>::
-UI.tscn::PackedScene::8887021978521766152::1736507622::0::1::::<><>::uid://g7lxo4yt6h6v::::res://Art/blue-cracks.png<>res://Scripts/UIClose.cs
-world.tscn::PackedScene::5559142010908735211::1737103336::0::1::::<><>::uid://dyu67olmcdf81::::res://Scenes/UI.tscn<>uid://dp5xfss4r04cq::::res://Art/Tilesets/Cave.tres
-::res://Scripts/::1736507638
-Movement.cs::CSharpScript::-1::1736507622::0::1::::<><>::
-ore sell price case.cs::CSharpScript::-1::1736507622::0::1::::<><>::
-UIClose.cs::CSharpScript::-1::1736507622::0::1::::<><>::
+::res://::1737947513
+::res://Art/::1737947507
+blue-cracks.png::CompressedTexture2D::487902891381649079::1736157096::1737946534::1::::<><>::
+idle & walk.png::CompressedTexture2D::8897571672736187224::1736771060::1737946534::1::::<><>::
+OVN SHEIT.png::CompressedTexture2D::7818820219069165050::1736157096::1737946534::1::::<><>::
+preview.png::CompressedTexture2D::4443695666687183546::1736157096::1737946534::1::::<><>::
+SHOP FRONTAGE.png::CompressedTexture2D::4598291853596410466::1736157096::1737946534::1::::<><>::
+walk & up walk.png::CompressedTexture2D::4774848239427566533::1736771067::1737946534::1::::<><>::
+::res://Art/Assets/::1737947510
+Azurium.png::CompressedTexture2D::71968357612622268::1737947507::1737947510::1::::<><>::
+blue-cracks.png::CompressedTexture2D::487902891381649079::1732535865::1737947045::1::::<><>::
+Blurium.png::CompressedTexture2D::7577809085304651990::1737947507::1737947510::1::::<><>::
+Crimsonium.png::CompressedTexture2D::5019969763829426068::1737947507::1737947510::1::::<><>::
+E Button.png::CompressedTexture2D::5979279870003829516::1737947507::1737947510::1::::<><>::
+GoDotium.png::CompressedTexture2D::7359897462590878342::1737947507::1737947510::1::::<><>::
+Jadeium.png::CompressedTexture2D::255160646677236707::1737947507::1737947510::1::::<><>::
+OVN SHEIT.png::CompressedTexture2D::7710674094442078945::1732539954::1737947045::1::::<><>::
+Pissium.png::CompressedTexture2D::1077441119468008698::1737947507::1737947510::1::::<><>::
+SHOP FRONTAGE.png::CompressedTexture2D::2272836513645694111::1732539954::1737947045::1::::<><>::
+Topazium.png::CompressedTexture2D::3860007859593489345::1737947507::1737947510::1::::<><>::
+::res://Art/Character/::1737947510
+idle & walk.png::CompressedTexture2D::5433968264079219776::1737947507::1737947510::1::::<><>::
+walk & up walk.png::CompressedTexture2D::3399909907385864305::1737947507::1737947510::1::::<><>::
+WalkupFixed.png::CompressedTexture2D::1397243733637586751::1737947507::1737947510::1::::<><>::
+::res://Art/Cover/::1737947045
+icon.svg::CompressedTexture2D::356196500738620443::1731663449::1737947045::1::::<><>::
+::res://Art/Tilemap/::1737946535
+cave textures.jpg::CompressedTexture2D::3095857768022664758::1731928494::1737946534::1::::<><>::
+cave textures.png::CompressedTexture2D::9218375590958638090::1733296818::1737946535::1::::<><>::
+ore tileset.webp::CompressedTexture2D::1847904519349645732::1731928452::1737946534::1::::<><>::
+::res://Art/Tilesets/::1737947513
+cave textures.jpg::CompressedTexture2D::3095857768022664758::1737947507::1737947511::1::::<><>::
+cave textures.png::CompressedTexture2D::9218375590958638090::1737947507::1737947511::1::::<><>::
+Cave.tres::TileSet::6805162070300304486::1737947513::0::1::::<><>::uid://d4lpkf3imke0y::::res://Art/Tilesets/cave textures.png
+ore tilemap.png::CompressedTexture2D::7383588415219789886::1737947507::1737947511::1::::<><>::
+ore tileset.webp::CompressedTexture2D::1847904519349645732::1737947507::1737947511::1::::<><>::
+::res://Globals/::1737947665
+Global.cs::CSharpScript::-1::1737947779::0::1::::<>Node<>::
+GM.tscn::PackedScene::1111659421587475919::1737947507::0::1::::<><>::res://Globals/Global.cs
+::res://Scenes/::1737947655
+interact.tscn::PackedScene::-1::1737947507::0::1::::<><>::
+Map.tscn::PackedScene::-1::1737947507::0::1::::<><>::
+MapDecorations.tscn::PackedScene::-1::1737947507::0::1::::<><>::
+Player.tscn::PackedScene::6332870427891070588::1737947507::0::1::::<><>::
+shop.tscn::PackedScene::-1::1737947507::0::1::::<><>::
+UI.tscn::PackedScene::8887021978521766152::1737947529::0::1::::<><>::res://Scripts/Inventory/Inventory.cs<>uid://g7lxo4yt6h6v::::res://Art/blue-cracks.png<>res://Scripts/Inventory/Equip.cs<>res://Scripts/Menu/UIClose.cs<>res://Scripts/Inventory/Equip2.cs<>res://Scripts/Menu/BtnOre1.cs<>res://Scripts/Inventory/Equip3.cs<>res://Scripts/Menu/btnMenuSell1.cs<>res://Scripts/Inventory/Equip4.cs<>res://Scripts/Menu/BtnOre2.cs<>res://Scripts/Menu/BtnOre3.cs<>res://Scripts/Inventory/Equip5.cs<>res://Scripts/Menu/BtnOre4.cs<>res://Scripts/Inventory/Equip6.cs<>res://Scripts/Menu/BtnOre5.cs<>res://Scripts/Menu/BtnOre6.cs<>res://Scripts/Menu/BtnOre7.cs<>res://Scripts/Menu/Buy.cs
+world.tscn::PackedScene::5559142010908735211::1737947655::0::1::::<><>::res://Scenes/Map.tscn<>uid://dyu67olmcdf81::::res://Scenes/UI.tscn<>res://Scenes/MapDecorations.tscn<>uid://p3q4ryarvihj::::res://Globals/GM.tscn<>uid://ddgwvfsq4fqd7::::res://Art/Tilesets/ore tilemap.png<>uid://cmycmrcf3kses::::res://Scenes/Ores/ore1Pissium.tscn<>uid://cwhxplapg34om::::res://Scenes/Player.tscn<>uid://cnmjdm6ahsmiw::::res://Scenes/Ores/ore2Blurium.tscn<>uid://h8nboeq6gpjl::::res://Scenes/Ores/ore3Topazium.tscn<>uid://dh4dw8hlaqdyf::::res://Art/Assets/OVN SHEIT.png<>uid://7keqnh2g1p4y::::res://Scenes/Ores/ore4Azurium.tscn<>uid://7m8jx28uqfg6::::res://Art/Assets/SHOP FRONTAGE.png<>res://Scenes/interact.tscn<>uid://5te21nq4awrk::::res://Scenes/Ores/ore5Crimsonium.tscn<>uid://ce8uf3taq5ak::::res://Scenes/Ores/ore6Jadeium.tscn<>uid://cnbikj8h3cvbq::::res://Scenes/Ores/ore7GoDotium.tscn<>res://Scripts/World/NodeSpawner.cs
+::res://Scenes/Ores/::1737947507
+ore1Pissium.tscn::PackedScene::5664796316903986834::1737947507::0::1::::<><>::uid://pl6kejtvca47::::res://Art/Assets/Pissium.png<>uid://durxi480u6554::::res://Scenes/interact.tscn
+ore2Blurium.tscn::PackedScene::5710621356225167894::1737947507::0::1::::<><>::uid://df70n5h2skixy::::res://Art/Assets/Blurium.png<>uid://durxi480u6554::::res://Scenes/interact.tscn
+ore3Topazium.tscn::PackedScene::560238220324834585::1737947507::0::1::::<><>::uid://bu821a57iuc54::::res://Art/Assets/Topazium.png<>uid://durxi480u6554::::res://Scenes/interact.tscn
+ore4Azurium.tscn::PackedScene::2266958909484175742::1737947507::0::1::::<><>::uid://ba4kqo2nifjg::::res://Art/Assets/Azurium.png<>uid://durxi480u6554::::res://Scenes/interact.tscn
+ore5Crimsonium.tscn::PackedScene::2145180957329913012::1737947507::0::1::::<><>::uid://cdryfy5ahhwem::::res://Art/Assets/Crimsonium.png<>uid://durxi480u6554::::res://Scenes/interact.tscn
+ore6Jadeium.tscn::PackedScene::150674881666906082::1737947507::0::1::::<><>::uid://dvupudxnesh4::::res://Art/Assets/Jadeium.png<>uid://durxi480u6554::::res://Scenes/interact.tscn
+ore7GoDotium.tscn::PackedScene::5687864830360128886::1737947772::0::1::::<><>::uid://dc4go26gdmwew::::res://Art/Assets/GoDotium.png<>res://Scenes/interact.tscn
+::res://Scripts/::1737947665
+Movement.cs::CSharpScript::-1::1736157096::0::1::::<>CharacterBody2D<>::
+ore sell price case.cs::CSharpScript::-1::1736157096::0::1::::<><>::
+UIClose.cs::CSharpScript::-1::1737947779::0::1::::<><>::
+::res://Scripts/Inventory/::1737947507
+Equip2.cs::CSharpScript::-1::1737947779::0::1::::<>Button<>::
+Equip3.cs::CSharpScript::-1::1737947779::0::1::::<>Button<>::
+Equip4.cs::CSharpScript::-1::1737947779::0::1::::<>Button<>::
+Equip5.cs::CSharpScript::-1::1737947779::0::1::::<>Button<>::
+Equip6.cs::CSharpScript::-1::1737947779::0::1::::<>Button<>::
+Equip.cs::CSharpScript::-1::1737947779::0::1::::<>Button<>::
+Inventory.cs::CSharpScript::-1::1737947779::0::1::::<>Button<>::
+::res://Scripts/Menu/::1737947507
+btnMenuSell1.cs::CSharpScript::-1::1737947778::0::1::::<>Button<>::
+BtnOre1.cs::CSharpScript::-1::1737947778::0::1::::<>Button<>::
+BtnOre2.cs::CSharpScript::-1::1737947778::0::1::::<>Button<>::
+BtnOre3.cs::CSharpScript::-1::1737947778::0::1::::<>Button<>::
+BtnOre4.cs::CSharpScript::-1::1737947778::0::1::::<>Button<>::
+BtnOre5.cs::CSharpScript::-1::1737947778::0::1::::<>Button<>::
+BtnOre6.cs::CSharpScript::-1::1737947779::0::1::::<>Button<>::
+BtnOre7.cs::CSharpScript::-1::1737947779::0::1::::<>Button<>::
+Buy.cs::CSharpScript::-1::1737947779::0::1::::<>Button<>::
+UIClose.cs::CSharpScript::-1::1737947779::0::1::::<>Button<>::
+::res://Scripts/World/::1737947665
+Interact.cs::CSharpScript::-1::1737947779::0::1::::<>Area2D<>::
+Movemint.cs::CSharpScript::-1::1737947507::0::1::::<>CharacterBody2D<>::
+NodeSpawner.cs::CSharpScript::-1::1737947507::0::1::::<>Node<>::
+ore sell price case.cs::CSharpScript::-1::1737947507::0::1::::<><>::

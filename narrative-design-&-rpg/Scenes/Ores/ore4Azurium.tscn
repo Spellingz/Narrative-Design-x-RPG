@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://7keqnh2g1p4y"]
+
+[ext_resource type="Texture2D" uid="uid://ba4kqo2nifjg" path="res://Art/Assets/Azurium.png" id="1_ycnj6"]
+[ext_resource type="PackedScene" uid="uid://durxi480u6554" path="res://Scenes/interact.tscn" id="2_fadql"]
+
+[node name="ore4Azurium" type="TextureRect"]
+offset_left = -864.0
+offset_top = 850.0
+offset_right = -564.0
+offset_bottom = 1150.0
+texture = ExtResource("1_ycnj6")
+
+[node name="Interact" parent="." instance=ExtResource("2_fadql")]
+visible = false
+layout_mode = 0
+offset_left = 126.0
+offset_top = 149.0
+offset_right = 815.0
+offset_bottom = 854.0

@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://5te21nq4awrk"]
+
+[ext_resource type="Texture2D" uid="uid://cdryfy5ahhwem" path="res://Art/Assets/Crimsonium.png" id="1_gfbyi"]
+[ext_resource type="PackedScene" uid="uid://durxi480u6554" path="res://Scenes/interact.tscn" id="2_4oqnm"]
+
+[node name="ore5Crimsonium" type="TextureRect"]
+offset_left = -645.0
+offset_top = 841.0
+offset_right = -345.0
+offset_bottom = 1141.0
+texture = ExtResource("1_gfbyi")
+
+[node name="Interact" parent="." instance=ExtResource("2_4oqnm")]
+visible = false
+layout_mode = 0
+offset_left = 133.0
+offset_top = 144.0
+offset_right = 822.0
+offset_bottom = 849.0

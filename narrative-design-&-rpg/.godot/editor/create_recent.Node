@@ -1,1 +1,14 @@
+TextureRect
+Node
+Node2D
+Label
+Button
+ColorRect
+Control
+ProgressBar
+CanvasLayer
+CollisionShape2D
+Area2D
 TileMapLayer
+StaticBody2D
+AnimationPlayer

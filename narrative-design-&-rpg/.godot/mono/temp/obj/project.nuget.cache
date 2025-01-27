@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "7Djsm8R5h9eBC52z21FqalUL2jWosKPbT6l55AnYjNDOMAZckZD4daE9rrY/aez3+tQnEOgx/iZO+kUeKJCmog==",
+  "dgSpecHash": "OS4s8/BjJdM=",
   "success": true,
-  "projectFilePath": "/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/Narrative Design & RPG.csproj",
+  "projectFilePath": "C:\\Users\\kianh\\Documents\\GitHub\\Narrative-Design---RPG\\narrative-design-&-rpg\\Narrative Design & RPG.csproj",
   "expectedPackageFiles": [
-    "/Users/valdemarnissen/.nuget/packages/godot.sourcegenerators/4.3.0/godot.sourcegenerators.4.3.0.nupkg.sha512",
-    "/Users/valdemarnissen/.nuget/packages/godotsharp/4.3.0/godotsharp.4.3.0.nupkg.sha512",
-    "/Users/valdemarnissen/.nuget/packages/godotsharpeditor/4.3.0/godotsharpeditor.4.3.0.nupkg.sha512"
+    "C:\\Users\\kianh\\.nuget\\packages\\godot.sourcegenerators\\4.3.0\\godot.sourcegenerators.4.3.0.nupkg.sha512",
+    "C:\\Users\\kianh\\.nuget\\packages\\godotsharp\\4.3.0\\godotsharp.4.3.0.nupkg.sha512",
+    "C:\\Users\\kianh\\.nuget\\packages\\godotsharpeditor\\4.3.0\\godotsharpeditor.4.3.0.nupkg.sha512",
+    "C:\\Users\\kianh\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.32\\microsoft.netcore.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\kianh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.32\\microsoft.windowsdesktop.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\kianh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.32\\microsoft.aspnetcore.app.ref.6.0.32.nupkg.sha512"
   ],
   "logs": []
 }

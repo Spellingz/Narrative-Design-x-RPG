@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://h8nboeq6gpjl"]
+
+[ext_resource type="Texture2D" uid="uid://bu821a57iuc54" path="res://Art/Assets/Topazium.png" id="1_qokcs"]
+[ext_resource type="PackedScene" uid="uid://durxi480u6554" path="res://Scenes/interact.tscn" id="2_a50e4"]
+
+[node name="ore3Topazium" type="TextureRect"]
+offset_left = -1092.0
+offset_top = 859.0
+offset_right = -792.0
+offset_bottom = 1159.0
+texture = ExtResource("1_qokcs")
+
+[node name="Interact" parent="." instance=ExtResource("2_a50e4")]
+visible = false
+layout_mode = 0
+offset_left = 142.0
+offset_top = 133.0
+offset_right = 831.0
+offset_bottom = 838.0

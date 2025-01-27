@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://cmycmrcf3kses"]
+
+[ext_resource type="Texture2D" uid="uid://pl6kejtvca47" path="res://Art/Assets/Pissium.png" id="1_6ii63"]
+[ext_resource type="PackedScene" uid="uid://durxi480u6554" path="res://Scenes/interact.tscn" id="2_k8jqe"]
+
+[node name="ore1Pissium" type="TextureRect"]
+offset_left = -1535.0
+offset_top = 823.0
+offset_right = -1235.0
+offset_bottom = 1123.0
+texture = ExtResource("1_6ii63")
+
+[node name="Interact" parent="." instance=ExtResource("2_k8jqe")]
+visible = false
+layout_mode = 0
+offset_left = 131.0
+offset_top = 147.0
+offset_right = 820.0
+offset_bottom = 852.0

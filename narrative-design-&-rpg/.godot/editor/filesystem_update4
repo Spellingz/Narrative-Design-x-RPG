@@ -1,4 +1,31 @@
 res://Scenes/world.tscn
 res://Art/Tilesets/Cave.tres
-res://Scripts/Movement.cs
 res://Scripts/UIClose.cs
+res://Scenes/UI.tscn
+res://Scripts/Inventory/Equip.cs
+res://Scripts/Menu/Buy.cs
+res://Scripts/Inventory/Equip6.cs
+res://Globals/Global.cs
+res://Scripts/Menu/BtnOre4.cs
+res://Scripts/Inventory/Equip5.cs
+res://Scripts/Menu/BtnOre3.cs
+res://Scripts/Inventory/Inventory.cs
+res://Scripts/Menu/btnMenuSell1.cs
+res://Scripts/Menu/BtnOre7.cs
+res://Scripts/World/Movemint.cs
+res://Scripts/Menu/BtnOre6.cs
+res://Scripts/World/Interact.cs
+res://Scripts/Inventory/Equip3.cs
+res://Scripts/Menu/BtnOre2.cs
+res://Scripts/Menu/BtnOre5.cs
+res://Scripts/Menu/BtnOre1.cs
+res://Scripts/Inventory/Equip2.cs
+res://Scripts/Inventory/Equip4.cs
+res://Scripts/Menu/UIClose.cs
+res://Scripts/Movement.cs
+res://Scripts/World/NodeSpawner.cs
+res://Scenes/Ores/ore7GoDotium.tscn
+res://Globals/GM.tscn
+res://Scenes/interact.tscn
+res://Scripts/ore sell price case.cs
+res://Scripts/World/ore sell price case.cs

@@ -1,26 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/Narrative Design & RPG.csproj": {}
+    "C:\\Users\\kianh\\Documents\\GitHub\\Narrative-Design---RPG\\narrative-design-&-rpg\\Narrative Design & RPG.csproj": {}
   },
   "projects": {
-    "/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/Narrative Design & RPG.csproj": {
+    "C:\\Users\\kianh\\Documents\\GitHub\\Narrative-Design---RPG\\narrative-design-&-rpg\\Narrative Design & RPG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/Narrative Design & RPG.csproj",
+        "projectUniqueName": "C:\\Users\\kianh\\Documents\\GitHub\\Narrative-Design---RPG\\narrative-design-&-rpg\\Narrative Design & RPG.csproj",
         "projectName": "Narrative Design & RPG",
-        "projectPath": "/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/Narrative Design & RPG.csproj",
-        "packagesPath": "/Users/valdemarnissen/.nuget/packages/",
-        "outputPath": "/Users/valdemarnissen/Desktop/Skole/3.G/Digital Design og Udvikling/Godot filer/Narrative-Design-x-RPG/narrative-design-&-rpg/.godot/mono/temp/obj/",
+        "projectPath": "C:\\Users\\kianh\\Documents\\GitHub\\Narrative-Design---RPG\\narrative-design-&-rpg\\Narrative Design & RPG.csproj",
+        "packagesPath": "C:\\Users\\kianh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kianh\\Documents\\GitHub\\Narrative-Design---RPG\\narrative-design-&-rpg\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/valdemarnissen/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\kianh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -33,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -63,12 +73,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.32, 6.0.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.32, 6.0.32]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.32, 6.0.32]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

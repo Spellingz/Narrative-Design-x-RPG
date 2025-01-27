@@ -1,2 +1,2 @@
-﻿63152
-/Users/valdemarnissen/Desktop/Godot.app/Contents/MacOS/Godot
+﻿61481
+C:/Users/kianh/Downloads/Godot_v4.3-stable_mono_win64/Godot_v4.3-stable_mono_win64/Godot_v4.3-stable_mono_win64.exe

@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://cnbikj8h3cvbq"]
+
+[ext_resource type="Texture2D" uid="uid://dc4go26gdmwew" path="res://Art/Assets/GoDotium.png" id="1_73g8r"]
+[ext_resource type="PackedScene" path="res://Scenes/interact.tscn" id="2_gmy8t"]
+
+[node name="ore7GoDotium" type="TextureRect"]
+offset_left = -214.0
+offset_top = 832.0
+offset_right = 86.0
+offset_bottom = 1132.0
+texture = ExtResource("1_73g8r")
+
+[node name="Interact" parent="." instance=ExtResource("2_gmy8t")]
+visible = false
+layout_mode = 0
+offset_left = 151.0
+offset_top = 129.0
+offset_right = 840.0
+offset_bottom = 834.0

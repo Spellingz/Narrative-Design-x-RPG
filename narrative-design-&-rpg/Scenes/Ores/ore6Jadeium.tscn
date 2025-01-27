@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://ce8uf3taq5ak"]
+
+[ext_resource type="Texture2D" uid="uid://dvupudxnesh4" path="res://Art/Assets/Jadeium.png" id="1_6rgak"]
+[ext_resource type="PackedScene" uid="uid://durxi480u6554" path="res://Scenes/interact.tscn" id="2_p7htp"]
+
+[node name="ore6Jadeium" type="TextureRect"]
+offset_left = -418.0
+offset_top = 841.0
+offset_right = -118.0
+offset_bottom = 1141.0
+texture = ExtResource("1_6rgak")
+
+[node name="Interact" parent="." instance=ExtResource("2_p7htp")]
+visible = false
+layout_mode = 0
+offset_left = 142.0
+offset_top = 109.0
+offset_right = 831.0
+offset_bottom = 814.0
